@@ -1,0 +1,111 @@
+</div><!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('https://bluesppcservices.com/images/forestbridge.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+opacity:0.4
+}
+
+.bgimg:hover{
+opacity:1.0
+}
+
+.center {
+  position: absolute;
+  top: 500px;
+  left: 550px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+</style>
+<body>
+
+<div class="bgimg">
+<ul>
+  <li><a class="active" href="home.jsp">Home</a></li>
+  <li><a class="#about" href="aboutus.html">About Us</a></li>
+  <li><a class="#contact" href="contact.html">Contact Us</a><li>
+</ul>
+  
+  <div class="middle">
+    <h1>Student's Grievance Portal</h1>
+    <hr>
+    <p>Feel free to share!</p>
+    <p><i class="bi bi-facebook" onclick="fun1()"></i> <i class="bi bi-twitter"></i>  <i class="bi bi-google"></i></p>
+  </div>
+<div class="center">
+    <p>Government Of Andhra Pradesh</p>
+  </div>
+  <div class="bottomleft">
+    <p>Powered by #HASHTAG</p>
+  </div>
+</div>
+
+<script>
+function fun1()
+{
+alert("Facebook");
+</script>
+
+
+</body>
+</html>
